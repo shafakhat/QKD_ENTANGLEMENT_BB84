@@ -1,0 +1,42 @@
+{
+  "_source": "classiq_studio_execution",
+  "files": [
+    "chsh_a0b0",
+    "chsh_a0b1",
+    "chsh_a1b0",
+    "chsh_a1b1",
+    "qrng_rotation"
+  ],
+  "chsh": {
+    "status": "ok",
+    "E": {
+      "a0b0": 0.7068,
+      "a0b1": 0.7064,
+      "a1b0": 0.7067,
+      "a1b1": -0.7057
+    },
+    "sigma_E": {
+      "a0b0": 0.005,
+      "a0b1": 0.005,
+      "a1b0": 0.005,
+      "a1b1": 0.00501
+    },
+    "shots_per_setting": {
+      "a0b0": 20000,
+      "a0b1": 20000,
+      "a1b0": 20000,
+      "a1b1": 20000
+    },
+    "S": 2.8256,
+    "sigma_S": 0.01,
+    "violation_sigma": 82.5,
+    "S_theory_ideal": 2.8284
+  },
+  "qrng_rotation": {
+    "n_bits": 160000,
+    "P_1": 0.5004,
+    "bias": 0.0004,
+    "min_entropy_mcv": 0.98959,
+    "monobit_p_value": 0.749
+  }
+}

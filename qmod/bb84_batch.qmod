@@ -1,0 +1,15 @@
+qfunc bb84_encode(alice_bit: int, alice_basis: int, q: qbit) {
+  if (alice_bit == 1) {
+    X(q);
+  }
+  if (alice_basis == 1) {
+    H(q);
+  }
+}
+
+qfunc main(bits: int[16], bases: int[16], output out: qbit[16]) {
+  allocate(out);
+  repeat (i: 16) {
+    bb84_encode(bits[i], bases[i], out[i]);
+  }
+}

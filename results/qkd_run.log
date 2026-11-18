@@ -1,0 +1,38 @@
+
+== E1  CHSH scan ==
+  p_ch=0.0000  S=2.8361 +- 0.0032  theory=2.8284  (+265.1 sigma over 2)
+  p_ch=0.0050  S=2.7940 +- 0.0032  theory=2.7908  (+248.1 sigma over 2)
+  p_ch=0.0100  S=2.7628 +- 0.0032  theory=2.7535  (+235.9 sigma over 2)
+  p_ch=0.0150  S=2.7247 +- 0.0033  theory=2.7164  (+221.3 sigma over 2)
+  p_ch=0.0200  S=2.6785 +- 0.0033  theory=2.6796  (+204.3 sigma over 2)
+  p_ch=0.0250  S=2.6506 +- 0.0033  theory=2.6430  (+194.2 sigma over 2)
+  p_ch=0.0300  S=2.6117 +- 0.0034  theory=2.6067  (+180.6 sigma over 2)
+  p_ch=0.0350  S=2.5756 +- 0.0034  theory=2.5706  (+168.2 sigma over 2)
+  p_ch=0.0400  S=2.5411 +- 0.0035  theory=2.5348  (+156.7 sigma over 2)
+
+== E1b CHSH with 1% readout error ==
+  p_ch=0.0000  S=2.8321 +- 0.0045  theory=2.8284  (+186.3 sigma over 2)
+  p_ch=0.0100  S=2.7504 +- 0.0046  theory=2.7535  (+163.4 sigma over 2)
+  p_ch=0.0200  S=2.6772 +- 0.0047  theory=2.6796  (+144.1 sigma over 2)
+
+== E2  entanglement-based BB84 (full protocol) ==
+  p_ch=0.0: sifted=524632 QBER=0.0000 (theory 0.0000) f=72000000000.000 final=479455 bits, battery 14/14
+  p_ch=0.01: sifted=524632 QBER=0.0133 (theory 0.0132) f=1.220 final=373116 bits, battery 14/14
+  p_ch=0.02: sifted=524632 QBER=0.0262 (theory 0.0263) f=1.251 final=290000 bits, battery 14/14
+
+== E3  prepare-and-measure BB84 ==
+  p_ch=0.0000  QBER_Z=0.0000 QBER_X=0.0000  theory=0.0000
+  p_ch=0.0050  QBER_Z=0.0031 QBER_X=0.0035  theory=0.0033
+  p_ch=0.0100  QBER_Z=0.0068 QBER_X=0.0069  theory=0.0067
+  p_ch=0.0200  QBER_Z=0.0134 QBER_X=0.0137  theory=0.0133
+  p_ch=0.0300  QBER_Z=0.0202 QBER_X=0.0203  theory=0.0200
+
+== E4  intercept-resend attack ==
+  threshold f*: {'f_star': 0.44, 'qber_at_f_star': 0.11}
+
+== E5  rate vs distance ==
+  0 km rate: 0.06964072353742568
+
+== E6  finite-key analysis ==
+
+all QKD experiments finished in 232.3 s

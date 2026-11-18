@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "sdk": {
+      "installed": true,
+      "version": "1.34.1",
+      "authenticated": false,
+      "auth_hint": "Call to API failed with code 401: Not authenticated"
+    },
+    "shots": 0,
+    "profiles": [
+      "width",
+      "depth"
+    ],
+    "note": "synthesised metrics are recorded verbatim from the platform"
+  },
+  "models": {
+    "qrng_rotation": {
+      "baseline": null,
+      "profiles": {}
+    },
+    "qrng_ghz": {
+      "baseline": null,
+      "profiles": {}
+    },
+    "chsh_pair": {
+      "baseline": null,
+      "profiles": {}
+    },
+    "bb84_round": {
+      "baseline": null,
+      "profiles": {}
+    },
+    "bb84_batch": {
+      "baseline": null,
+      "profiles": {}
+    }
+  }
+}

@@ -1,0 +1,795 @@
+{
+ "meta": {
+  "source": "results/qkd_results.json",
+  "pulse_rate_hz": 100000000.0,
+  "qber_abort_threshold": 0.11,
+  "note": "Key supply rates are the measured protocol outputs; the key buffer is an inventory model and the fallback path is a classical KDF chain, as in deployed QKD networks."
+ },
+ "A1_provisioning": {
+  "profile_otp": "3.28 Mbit/s data, 1:1 key",
+  "profile_aes": "262.1 Mbit/s data, AES-256 rekey every 1024 KiB (8.0 kbit/s of key)",
+  "pulse_rate_hz": 100000000.0,
+  "otp_demand_mbps": 3.2768,
+  "aes_demand_mbps": 0.008,
+  "otp_profile_max_distance_km": 10.0,
+  "rows": [
+   {
+    "length_km": 0.0,
+    "qber": 3.3333111112592582e-06,
+    "key_rate_bits_per_pulse": 0.06963616470117963,
+    "supply_mbps": 6.963616470117963,
+    "otp_max_payload_MBps": 0.8704520587647454,
+    "otp_feasible_for_profile": true,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 47056009.101898335,
+    "pulses_needed_for_aes_profile": 114882.83472143147
+   },
+   {
+    "length_km": 10.0,
+    "qber": 5.282921489095016e-06,
+    "key_rate_bits_per_pulse": 0.04514167900270432,
+    "supply_mbps": 4.514167900270432,
+    "otp_max_payload_MBps": 0.564270987533804,
+    "otp_feasible_for_profile": true,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 72589236.20904078,
+    "pulses_needed_for_aes_profile": 177219.81496347845
+   },
+   {
+    "length_km": 20.0,
+    "qber": 8.372814561303334e-06,
+    "key_rate_bits_per_pulse": 0.028974422205475678,
+    "supply_mbps": 2.8974422205475676,
+    "otp_max_payload_MBps": 0.36218027756844595,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 113092850.54114866,
+    "pulses_needed_for_aes_profile": 276105.5921414762
+   },
+   {
+    "length_km": 30.0,
+    "qber": 1.3269886829309962e-05,
+    "key_rate_bits_per_pulse": 0.018479300228461108,
+    "supply_mbps": 1.8479300228461109,
+    "otp_max_payload_MBps": 0.23099125285576386,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 177322731.8939923,
+    "pulses_needed_for_aes_profile": 432916.82591306715
+   },
+   {
+    "length_km": 40.0,
+    "qber": 2.1031026837283446e-05,
+    "key_rate_bits_per_pulse": 0.011737457805206774,
+    "supply_mbps": 1.1737457805206772,
+    "otp_max_payload_MBps": 0.14671822256508465,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 279174592.52091205,
+    "pulses_needed_for_aes_profile": 681578.595021758
+   },
+   {
+    "length_km": 50.0,
+    "qber": 3.333111125924938e-05,
+    "key_rate_bits_per_pulse": 0.007435286191081183,
+    "supply_mbps": 0.7435286191081184,
+    "otp_max_payload_MBps": 0.0929410773885148,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 440709330.5877864,
+    "pulses_needed_for_aes_profile": 1075950.5141303379
+   },
+   {
+    "length_km": 60.0,
+    "qber": 5.282419170191541e-05,
+    "key_rate_bits_per_pulse": 0.00470144619923668,
+    "supply_mbps": 0.47014461992366796,
+    "otp_max_payload_MBps": 0.058768077490458495,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 696977028.1604023,
+    "pulses_needed_for_aes_profile": 1701604.0726572324
+   },
+   {
+    "length_km": 70.0,
+    "qber": 8.371552879026099e-05,
+    "key_rate_bits_per_pulse": 0.0029688390796574517,
+    "supply_mbps": 0.2968839079657452,
+    "otp_max_payload_MBps": 0.03711048849571815,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 1103731092.2146988,
+    "pulses_needed_for_aes_profile": 2694655.986852292
+   },
+   {
+    "length_km": 80.0,
+    "qber": 0.00013266717968081373,
+    "key_rate_bits_per_pulse": 0.0018726525922456744,
+    "supply_mbps": 0.18726525922456744,
+    "otp_max_payload_MBps": 0.02340815740307093,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 1749817351.904274,
+    "pulses_needed_for_aes_profile": 4272015.019297544
+   },
+   {
+    "length_km": 90.0,
+    "qber": 0.0002102306837640937,
+    "key_rate_bits_per_pulse": 0.0011798944621607124,
+    "supply_mbps": 0.11798944621607124,
+    "otp_max_payload_MBps": 0.014748680777008905,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 2777197541.888005,
+    "pulses_needed_for_aes_profile": 6780267.436250011
+   },
+   {
+    "length_km": 100.0,
+    "qber": 0.00033311125916055963,
+    "key_rate_bits_per_pulse": 0.0007424308644151598,
+    "supply_mbps": 0.07424308644151598,
+    "otp_max_payload_MBps": 0.009280385805189497,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 4413609612.770148,
+    "pulses_needed_for_aes_profile": 10775414.09367712
+   },
+   {
+    "length_km": 110.0,
+    "qber": 0.0005277401230014822,
+    "key_rate_bits_per_pulse": 0.0004663460104732918,
+    "supply_mbps": 0.04663460104732918,
+    "otp_max_payload_MBps": 0.0058293251309161475,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 7026542366.416719,
+    "pulses_needed_for_aes_profile": 17154644.449259568
+   },
+   {
+    "length_km": 120.0,
+    "qber": 0.0008358956938022471,
+    "key_rate_bits_per_pulse": 0.00029220375511229544,
+    "supply_mbps": 0.029220375511229545,
+    "otp_max_payload_MBps": 0.003652546938903693,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 11214092709.865103,
+    "pulses_needed_for_aes_profile": 27378156.0299441
+   },
+   {
+    "length_km": 130.0,
+    "qber": 0.0013235112397459842,
+    "key_rate_bits_per_pulse": 0.00018243113653149663,
+    "supply_mbps": 0.018243113653149665,
+    "otp_max_payload_MBps": 0.002280389206643708,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 17961846109.719666,
+    "pulses_needed_for_aes_profile": 43852163.35380778
+   },
+   {
+    "length_km": 140.0,
+    "qber": 0.002094381379510346,
+    "key_rate_bits_per_pulse": 0.00011329307208189465,
+    "supply_mbps": 0.011329307208189466,
+    "otp_max_payload_MBps": 0.0014161634010236832,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": true,
+    "pulses_needed_for_otp_profile": 28923216043.00167,
+    "pulses_needed_for_aes_profile": 70613320.41748455
+   },
+   {
+    "length_km": 150.0,
+    "qber": 0.0033112582781456954,
+    "key_rate_bits_per_pulse": 6.980287462510587e-05,
+    "supply_mbps": 0.006980287462510587,
+    "otp_max_payload_MBps": 0.0008725359328138234,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 46943625425.15462,
+    "pulses_needed_for_aes_profile": 114608460.5106314
+   },
+   {
+    "length_km": 160.0,
+    "qber": 0.005227741231604262,
+    "key_rate_bits_per_pulse": 4.250071021465111e-05,
+    "supply_mbps": 0.004250071021465111,
+    "otp_max_payload_MBps": 0.0005312588776831389,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 77099888059.52708,
+    "pulses_needed_for_aes_profile": 188232148.5828298
+   },
+   {
+    "length_km": 170.0,
+    "qber": 0.008235051346760515,
+    "key_rate_bits_per_pulse": 2.541683585923265e-05,
+    "supply_mbps": 0.002541683585923265,
+    "otp_max_payload_MBps": 0.00031771044824040813,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 128922420483.33897,
+    "pulses_needed_for_aes_profile": 314752003.13315177
+   },
+   {
+    "length_km": 180.0,
+    "qber": 0.012927146374030175,
+    "key_rate_bits_per_pulse": 1.4784804265712862e-05,
+    "supply_mbps": 0.0014784804265712862,
+    "otp_max_payload_MBps": 0.00018481005332141078,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 221632964570.19455,
+    "pulses_needed_for_aes_profile": 541096104.9077015
+   },
+   {
+    "length_km": 190.0,
+    "qber": 0.020182939872937622,
+    "key_rate_bits_per_pulse": 8.228736118132468e-06,
+    "supply_mbps": 0.0008228736118132469,
+    "otp_max_payload_MBps": 0.00010285920147665586,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 398214252220.26416,
+    "pulses_needed_for_aes_profile": 972202764.2096293
+   },
+   {
+    "length_km": 200.0,
+    "qber": 0.03125,
+    "key_rate_bits_per_pulse": 4.249886471897455e-06,
+    "supply_mbps": 0.00042498864718974543,
+    "otp_max_payload_MBps": 5.312358089871818e-05,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 771032360903.7493,
+    "pulses_needed_for_aes_profile": 1882403224.8626692
+   },
+   {
+    "length_km": 210.0,
+    "qber": 0.04778123000459082,
+    "key_rate_bits_per_pulse": 1.9018766405098532e-06,
+    "supply_mbps": 0.00019018766405098532,
+    "otp_max_payload_MBps": 2.3773458006373164e-05,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 1722929831622.286,
+    "pulses_needed_for_aes_profile": 4206371659.234096
+   },
+   {
+    "length_km": 220.0,
+    "qber": 0.07171947012487133,
+    "key_rate_bits_per_pulse": 5.846634846066422e-07,
+    "supply_mbps": 5.846634846066422e-05,
+    "otp_max_payload_MBps": 7.308293557583027e-06,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": 5604591506522.098,
+    "pulses_needed_for_aes_profile": 13683084732.719965
+   },
+   {
+    "length_km": 230.0,
+    "qber": 0.10486951862612873,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 240.0,
+    "qber": 0.14804551252857276,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 250.0,
+    "qber": 0.2,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 260.0,
+    "qber": 0.2568797513531892,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 270.0,
+    "qber": 0.313055525672547,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 280.0,
+    "qber": 0.3631654464139513,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 290.0,
+    "qber": 0.40396402501352985,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   },
+   {
+    "length_km": 300.0,
+    "qber": 0.43478260869565216,
+    "key_rate_bits_per_pulse": 0.0,
+    "supply_mbps": 0.0,
+    "otp_max_payload_MBps": 0.0,
+    "otp_feasible_for_profile": false,
+    "aes_feasible_for_profile": false,
+    "pulses_needed_for_otp_profile": null,
+    "pulses_needed_for_aes_profile": null
+   }
+  ]
+ },
+ "A2_margin_sweep": {
+  "profile": "OTP, 8 sessions x 200 msg/s x 256 B",
+  "duration_s": 600.0,
+  "smallest_ratio_with_full_coverage": 0.99,
+  "rows": [
+   {
+    "supply_over_demand": 0.5,
+    "supply_mbps": 1.6384,
+    "coverage": 0.5492437481795864,
+    "underruns_per_hour": 1066572.0,
+    "first_underrun_s": 59.678000000000004,
+    "buffer_min_Mbit": 0.0012287999463620673
+   },
+   {
+    "supply_over_demand": 0.7,
+    "supply_mbps": 2.29376,
+    "coverage": 0.7489691257853784,
+    "underruns_per_hour": 669300.0,
+    "first_underrun_s": 98.868,
+    "buffer_min_Mbit": 0.0004915199824152514
+   },
+   {
+    "supply_over_demand": 0.85,
+    "supply_mbps": 2.7852799999999998,
+    "coverage": 0.8987641992260642,
+    "underruns_per_hour": 290352.0,
+    "first_underrun_s": 197.554,
+    "buffer_min_Mbit": 0.0014745601332292572
+   },
+   {
+    "supply_over_demand": 0.95,
+    "supply_mbps": 3.11296,
+    "coverage": 0.9986196063745683,
+    "underruns_per_hour": 4236.0,
+    "first_underrun_s": 581.596,
+    "buffer_min_Mbit": 8.192043252389158e-05
+   },
+   {
+    "supply_over_demand": 0.99,
+    "supply_mbps": 3.244032,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 75.83655526268427
+   },
+   {
+    "supply_over_demand": 1.0,
+    "supply_mbps": 3.2768,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 95.21192959824464
+   },
+   {
+    "supply_over_demand": 1.01,
+    "supply_mbps": 3.309568,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.30652313600001
+   },
+   {
+    "supply_over_demand": 1.05,
+    "supply_mbps": 3.44064,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.30678528
+   },
+   {
+    "supply_over_demand": 1.15,
+    "supply_mbps": 3.7683199999999997,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.30744064
+   },
+   {
+    "supply_over_demand": 1.3,
+    "supply_mbps": 4.25984,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.30842368
+   },
+   {
+    "supply_over_demand": 1.5,
+    "supply_mbps": 4.9152,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.30973440000001
+   },
+   {
+    "supply_over_demand": 2.0,
+    "supply_mbps": 6.5536,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.3130112
+   },
+   {
+    "supply_over_demand": 3.0,
+    "supply_mbps": 9.8304,
+    "coverage": 1.0,
+    "underruns_per_hour": 0.0,
+    "first_underrun_s": null,
+    "buffer_min_Mbit": 98.3195648
+   }
+  ]
+ },
+ "A3_outage": {
+  "supply_over_demand": 2.0,
+  "rows": [
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 30,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 60,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 300,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 600,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 1200,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 10,
+    "buffer_seconds_of_demand": 2400,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 30,
+    "coverage": 0.916834349831277,
+    "underruns": 14362,
+    "recovery_s": 15.117999999999995
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 60,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 30.162000000000006
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 300,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0379999999999967
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 600,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0379999999999967
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 1200,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0379999999999967
+   },
+   {
+    "blackout_s": 60,
+    "buffer_seconds_of_demand": 2400,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0379999999999967
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 30,
+    "coverage": 0.5494598588764232,
+    "underruns": 129385,
+    "recovery_s": 14.744000000000028
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 60,
+    "coverage": 0.5994151072997107,
+    "underruns": 115018,
+    "recovery_s": 29.726
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 300,
+    "coverage": 0.8491132943404867,
+    "underruns": 43183,
+    "recovery_s": 150.02800000000002
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 600,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 1200,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 300,
+    "buffer_seconds_of_demand": 2400,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 30,
+    "coverage": 0.2753907094586674,
+    "underruns": 417021,
+    "recovery_s": 15.066000000000031
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 60,
+    "coverage": 0.3003986156039956,
+    "underruns": 402654,
+    "recovery_s": 29.946000000000026
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 300,
+    "coverage": 0.42539907147728473,
+    "underruns": 330819,
+    "recovery_s": 150.1400000000001
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 600,
+    "coverage": 0.5504386022039259,
+    "underruns": 259086,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 1200,
+    "coverage": 0.8005176636572083,
+    "underruns": 115057,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 900,
+    "buffer_seconds_of_demand": 2400,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 30,
+    "coverage": 0.15704046358342946,
+    "underruns": 848758,
+    "recovery_s": 14.928000000000111
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 60,
+    "coverage": 0.17132141330228814,
+    "underruns": 834391,
+    "recovery_s": 29.948000000000093
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 300,
+    "coverage": 0.24270384791264582,
+    "underruns": 762556,
+    "recovery_s": 149.71800000000007
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 600,
+    "coverage": 0.3141085965069392,
+    "underruns": 690823,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 1200,
+    "coverage": 0.456918093695526,
+    "underruns": 546794,
+    "recovery_s": null
+   },
+   {
+    "blackout_s": 1800,
+    "buffer_seconds_of_demand": 2400,
+    "coverage": 0.7425367905529138,
+    "underruns": 259129,
+    "recovery_s": null
+   }
+  ],
+  "min_buffer_seconds_for_clean_ride_through": {
+   "10": 30,
+   "60": 60,
+   "300": 600,
+   "900": 2400,
+   "1800": null
+  }
+ },
+ "A4_degradation": {
+  "qber_abort_threshold": 0.11,
+  "analytic": [
+   {
+    "aborts_per_hour": 0.1,
+    "dead_time_s": 1.0,
+    "coverage_loss_fraction": 2.777777777777778e-05,
+    "equivalent_downtime_min_per_day": 0.04000000000000001
+   },
+   {
+    "aborts_per_hour": 0.1,
+    "dead_time_s": 10.0,
+    "coverage_loss_fraction": 0.0002777777777777778,
+    "equivalent_downtime_min_per_day": 0.4
+   },
+   {
+    "aborts_per_hour": 0.1,
+    "dead_time_s": 60.0,
+    "coverage_loss_fraction": 0.0016666666666666668,
+    "equivalent_downtime_min_per_day": 2.4
+   },
+   {
+    "aborts_per_hour": 1.0,
+    "dead_time_s": 1.0,
+    "coverage_loss_fraction": 0.0002777777777777778,
+    "equivalent_downtime_min_per_day": 0.4
+   },
+   {
+    "aborts_per_hour": 1.0,
+    "dead_time_s": 10.0,
+    "coverage_loss_fraction": 0.002777777777777778,
+    "equivalent_downtime_min_per_day": 4.0
+   },
+   {
+    "aborts_per_hour": 1.0,
+    "dead_time_s": 60.0,
+    "coverage_loss_fraction": 0.016666666666666666,
+    "equivalent_downtime_min_per_day": 24.0
+   },
+   {
+    "aborts_per_hour": 6.0,
+    "dead_time_s": 1.0,
+    "coverage_loss_fraction": 0.0016666666666666668,
+    "equivalent_downtime_min_per_day": 2.4
+   },
+   {
+    "aborts_per_hour": 6.0,
+    "dead_time_s": 10.0,
+    "coverage_loss_fraction": 0.016666666666666666,
+    "equivalent_downtime_min_per_day": 24.0
+   },
+   {
+    "aborts_per_hour": 6.0,
+    "dead_time_s": 60.0,
+    "coverage_loss_fraction": 0.1,
+    "equivalent_downtime_min_per_day": 144.0
+   },
+   {
+    "aborts_per_hour": 30.0,
+    "dead_time_s": 1.0,
+    "coverage_loss_fraction": 0.008333333333333333,
+    "equivalent_downtime_min_per_day": 12.0
+   },
+   {
+    "aborts_per_hour": 30.0,
+    "dead_time_s": 10.0,
+    "coverage_loss_fraction": 0.08333333333333333,
+    "equivalent_downtime_min_per_day": 120.0
+   },
+   {
+    "aborts_per_hour": 30.0,
+    "dead_time_s": 60.0,
+    "coverage_loss_fraction": 0.5,
+    "equivalent_downtime_min_per_day": 720.0
+   }
+  ],
+  "simulated_single_event": [
+   {
+    "dead_time_s": 1.0,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "dead_time_s": 10.0,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 0.0
+   },
+   {
+    "dead_time_s": 60.0,
+    "coverage": 1.0,
+    "underruns": 0,
+    "recovery_s": 59.656000000000006
+   },
+   {
+    "dead_time_s": 300.0,
+    "coverage": 0.8670566053831518,
+    "underruns": 114992,
+    "recovery_s": 59.61400000000003
+   }
+  ]
+ }
+}

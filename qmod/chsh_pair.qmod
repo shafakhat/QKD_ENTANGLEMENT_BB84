@@ -1,0 +1,11 @@
+qfunc prep_bell_phi_plus(q0: qbit, q1: qbit) {
+  H(q0);
+  CX(q0, q1);
+}
+
+qfunc main(a: real, b: real, output out: qbit[2]) {
+  allocate(out);
+  prep_bell_phi_plus(out[0], out[1]);
+  RY(-a, out[0]);
+  RY(-b, out[1]);
+}

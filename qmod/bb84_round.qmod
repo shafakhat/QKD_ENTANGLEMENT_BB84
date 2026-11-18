@@ -1,0 +1,20 @@
+qfunc bb84_encode(alice_bit: int, alice_basis: int, q: qbit) {
+  if (alice_bit == 1) {
+    X(q);
+  }
+  if (alice_basis == 1) {
+    H(q);
+  }
+}
+
+qfunc measure_in_basis(basis: int, q: qbit) {
+  if (basis == 1) {
+    H(q);
+  }
+}
+
+qfunc main(bit: int, abasis: int, bbasis: int, output out: qbit) {
+  allocate(out);
+  bb84_encode(bit, abasis, out);
+  measure_in_basis(bbasis, out);
+}
