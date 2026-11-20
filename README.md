@@ -47,8 +47,8 @@ link length and demand rate.
 Install everything that is required:
 
 ```bash
-git clone https://github.com/shafakhat/qkd-entanglement-bb84.git
-cd qkd-entanglement-bb84
+git clone https://github.com/shafakhat/QKD_ENTANGLEMENT_BB84.git
+cd QKD_ENTANGLEMENT_BB84
 python3 -m venv .venv && source .venv/bin/activate     # optional but recommended
 pip install -r requirements.txt
 ```
